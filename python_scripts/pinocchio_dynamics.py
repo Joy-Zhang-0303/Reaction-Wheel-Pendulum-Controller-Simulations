@@ -10,7 +10,7 @@ class Robot_dynamics:
         import os 
         dir_path = os.path.dirname(os.path.realpath(__file__))
 
-        model = pinocchio.buildModelFromUrdf(dir_path + "/../coppeliasim_simulation/urdf/flywheel_pendulum.urdf")
+        model = pinocchio.buildModelFromUrdf(dir_path + "/../simulations/coppeliasim_simulation/urdf/flywheel_pendulum.urdf")
  
         cmodel = cpin.Model(model)
         cdata = cmodel.createData()
