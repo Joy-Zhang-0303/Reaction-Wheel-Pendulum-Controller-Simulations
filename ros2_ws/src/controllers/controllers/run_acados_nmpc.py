@@ -3,14 +3,15 @@ import time
 import sys
 import numpy as np # type: ignore
 import os 
-from casadi_nmpc import Casadi_NMPC 
-from base_controller import Base_Controller
 
 np.set_printoptions(threshold=sys.maxsize)
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(dir_path + '/../../../../python_scripts/controllers/acados')
 sys.path.append(dir_path + '/../../../../python_scripts/controllers')
 sys.path.append(dir_path)
+
+from casadi_nmpc import Casadi_NMPC 
+from base_controller import Base_Controller
 
 class Controller(Base_Controller):
     def __init__(self):
