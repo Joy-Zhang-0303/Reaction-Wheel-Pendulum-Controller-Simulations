@@ -10,16 +10,16 @@ sys.path.append(dir_path + '/../../../../python_scripts/controllers/acados')
 sys.path.append(dir_path + '/../../../../python_scripts/controllers')
 sys.path.append(dir_path)
 
-from acados_nmpc import NMPC 
+from casadi_nmpc import Casadi_NMPC 
 from base_controller import Base_Controller
 
 class Controller(Base_Controller):
     def __init__(self):
-        super().__init__('Acados_NMPC')
+        super().__init__('Casadi_NMPC')
 
         self.create_timer(self.dt, self.controller_callback)
         self.horizon = 30
-        self.controller = NMPC(horizon=self.horizon, dt=self.dt)
+        self.controller = Casadi_NMPC(N=self.horizon, dt=self.dt)
         
 
     def controller_callback(self):
@@ -40,7 +40,7 @@ class Controller(Base_Controller):
 
 def main(args=None):
     rclpy.init(args=args)
-    print("###### Controller started ######")
+    print("###### Casadi NMPC Controller started ######")
 
     controller_node = Controller()
 

@@ -23,6 +23,7 @@ setup(
                             'run_adaptive_lqr = controllers.run_adaptive_lqr:main',
                             'run_ilqr = controllers.run_ilqr:main',
                             'run_feedback_lin = controllers.run_feedback_lin:main',
+                            'run_casadi_nmpc = controllers.run_casadi_nmpc:main',
                             'run_acados_nmpc = controllers.run_acados_nmpc:main'
         ],
     },
