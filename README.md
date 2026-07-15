@@ -1,6 +1,7 @@
 ## Overview
 This repo is based on https://github.com/giulioturrisi/Flywheel-Pendulum-Robot
-The feature is: run the reaction wheel pendulum controller on host ubuntu 22.04 and ROS2 without any virtual environment. 
+
+The feature is: run the reaction wheel pendulum controller on the host ubuntu 22.04 and raw ROS2 **without any virtual environment**. 
 
 This repo contains the code for controlling both a real and a simulated (in [Mujoco](https://github.com/google-deepmind/mujoco) or [CoppeliaSim](https://www.coppeliarobotics.com/downloads)) flywheel pendulum robot via ROS2. 
 
