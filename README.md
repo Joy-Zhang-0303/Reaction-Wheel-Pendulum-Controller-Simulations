@@ -30,13 +30,17 @@ It includes the following folders:
 2. [CoppeliaSim](https://www.coppeliarobotics.com/downloads) or [Mujoco](https://github.com/google-deepmind/mujoco)
 
 ## How to install for Ubuntu 22.04 and ROS2 Humble
-1. Prepare Ubuntu 22.04, and ```git clone https://github.com/Joy-Zhang-0303/Reaction-Wheel-Pendulum-Controller-Simulations```
-2. Install many dev tools: ```installation/host-ubuntu2204/install-00_basic_ubuntu22_RevB.sh```
-3. Install ROS2 humble: ```installation/host-ubuntu2204/install-01-os-ros2-humble-desktop-main.sh```
-4. Install solver acados: ```installation/host-ubuntu2204/install-02-os-acados.sh```
-5. Install pinocchio: ```installation/host-ubuntu2204/install-03-os-pinocchio.sh```
-6. Build this repo: ```installation/host-ubuntu2204/install-04-os-ros2-rwp.sh```
-7. Install simulator and alias: ```installation/host-ubuntu2204/install-05-os-alias.sh```
+1. Prepare Ubuntu 22.04, and run
+   ```bash
+   cd ~/Documents/
+   git clone --recurse-submodules https://github.com/Joy-Zhang-0303/Reaction-Wheel-Pendulum-Controller-Simulations
+   ```
+3. Install many dev tools: ```installation/host-ubuntu2204/install-00_basic_ubuntu22_RevB.sh```
+4. Install ROS2 humble: ```installation/host-ubuntu2204/install-01-os-ros2-humble-desktop-main.sh```
+5. Install solver acados: ```installation/host-ubuntu2204/install-02-os-acados.sh```
+6. Install pinocchio: ```installation/host-ubuntu2204/install-03-os-pinocchio.sh```
+7. Build this repo: ```installation/host-ubuntu2204/install-04-os-ros2-rwp.sh```
+8. Install simulator and alias: ```installation/host-ubuntu2204/install-05-os-alias.sh```
 
 
 ## How to run the simulation
