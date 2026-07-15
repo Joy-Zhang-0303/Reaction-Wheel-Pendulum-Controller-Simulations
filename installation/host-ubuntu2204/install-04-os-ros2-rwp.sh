@@ -1,5 +1,4 @@
 cd ~/Documents/
-git clone --recurse-submodules https://github.com/Joy-Zhang-0303/Reaction-Wheel-Pendulum-Controller-Simulations.cd
 cd Reaction-Wheel-Pendulum-Controller-Simulations/ros2_ws/
 rosdep install -y -r -q --from-paths src --ignore-src --rosdistro humble
 ulimit -s unlimited
