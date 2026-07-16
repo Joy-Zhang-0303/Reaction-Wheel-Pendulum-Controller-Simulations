@@ -4,7 +4,9 @@ echo "alias sim='"${COPPELIASIM_ROOT_DIR}/coppeliaSim.sh" -f /home/atom/Document
 
 # DL simulator and install
 cd ~/Documents/
-# wget tbc
+wget https://downloads.coppeliarobotics.com/V4_10_0_rev0/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu22_04.tar.xz
 tar -xf CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu22_04.tar.xz
-cd CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu22_04
-./coppeliaSim.sh
+
+# cd CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu22_04
+# run the simulator command, not must in this phase
+# ./coppeliaSim.sh
