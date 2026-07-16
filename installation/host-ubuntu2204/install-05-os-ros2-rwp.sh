@@ -1,3 +1,4 @@
+sudo apt-get install xsltproc -y
 cd ~/Documents/
 cd Reaction-Wheel-Pendulum-Controller-Simulations/ros2_ws/
 rosdep install -y -r -q --from-paths src --ignore-src --rosdistro humble
