@@ -72,3 +72,6 @@ sudo apt install gnome-system-tools -y
 
 # screenfetch
 sudo apt-get install screenfetch -y
+
+# python3-pip
+sudo apt-get install python3-pip
