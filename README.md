@@ -6,12 +6,13 @@ The feature is: run the reaction wheel pendulum controller on the host ubuntu 22
 This repo contains the code for controlling both a real and a simulated (in [Mujoco](https://github.com/google-deepmind/mujoco) or [CoppeliaSim](https://www.coppeliarobotics.com/downloads)) flywheel pendulum robot via ROS2. 
 
 ![CoppeliaSim with CasADi-NMPC controller](./document/figs/coppeliasim_casadi_sim.gif)
+
 ## List of available controllers
 1. Feedback Linearization
 2. Linear Quadratic Regulator
 3. Adaptive Linear Quadratic Regulator
 4. Nonlinear MPC via Acados
-4. Nonlinear MPC via Casadi
+5. Nonlinear MPC via Casadi
 6. Iterative Linear Quadratic Regulator
 
 ## Repository structure
@@ -37,12 +38,12 @@ It includes the following folders:
    cd ~/Documents/
    git clone --recurse-submodules https://github.com/Joy-Zhang-0303/Reaction-Wheel-Pendulum-Controller-Simulations
    ```
-3. Install many dev tools: ```installation/host-ubuntu2204/install-00_basic_ubuntu22_RevB.sh```
-4. Install ROS2 humble: ```installation/host-ubuntu2204/install-01-os-ros2-humble-desktop-main.sh```
-5. Install solver acados: ```installation/host-ubuntu2204/install-02-os-acados.sh```
-6. Install pinocchio: ```installation/host-ubuntu2204/install-03-os-pinocchio.sh```
-7. Build this repo: ```installation/host-ubuntu2204/install-04-os-ros2-rwp.sh```
-8. Install simulator and alias: ```installation/host-ubuntu2204/install-05-os-alias.sh```
+2. Install many dev tools: ```installation/host-ubuntu2204/install-00_basic_ubuntu22_RevB.sh```
+3. Install ROS2 humble: ```installation/host-ubuntu2204/install-01-os-ros2-humble-desktop-main.sh```
+4. Install solver acados: ```installation/host-ubuntu2204/install-02-os-acados.sh```
+5. Install pinocchio: ```installation/host-ubuntu2204/install-03-os-pinocchio.sh```
+6. Install simulator : ```installation/host-ubuntu2204/install-04-os-simulator.sh```
+7. Build this repo: ```installation/host-ubuntu2204/install-05-os-ros2-rwp.sh```
 
 
 ## How to run the simulation
