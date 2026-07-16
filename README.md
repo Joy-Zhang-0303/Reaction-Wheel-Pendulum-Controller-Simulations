@@ -5,6 +5,7 @@ The feature is: run the reaction wheel pendulum controller on the host ubuntu 22
 
 This repo contains the code for controlling both a real and a simulated (in [Mujoco](https://github.com/google-deepmind/mujoco) or [CoppeliaSim](https://www.coppeliarobotics.com/downloads)) flywheel pendulum robot via ROS2. 
 
+![CoppeliaSim with CasADi-NMPC controller](./docment/figs/coppeliasim_casadi_sim.gif)
 ## List of available controllers
 1. Feedback Linearization
 2. Linear Quadratic Regulator
