@@ -32,6 +32,7 @@ It includes the following folders:
 ## How to install for Ubuntu 22.04 and ROS2 Humble
 1. Prepare Ubuntu 22.04, and run
    ```bash
+   sudo apt-get install git -y
    cd ~/Documents/
    git clone --recurse-submodules https://github.com/Joy-Zhang-0303/Reaction-Wheel-Pendulum-Controller-Simulations
    ```
