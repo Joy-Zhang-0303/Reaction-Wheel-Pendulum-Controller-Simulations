@@ -62,10 +62,10 @@ sudo apt-get install kazam -y
 sudo apt-get install screen -y # to seperate screen
 
 # hardware information
-sudo apt-get install hardinfo
+sudo apt-get install hardinfo -y
 
 # vim
-sudo apt-get install vim
+sudo apt-get install vim -y
 
 # gnome-system-tools to control use and group
 sudo apt install gnome-system-tools -y
@@ -74,4 +74,4 @@ sudo apt install gnome-system-tools -y
 sudo apt-get install screenfetch -y
 
 # python3-pip
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
